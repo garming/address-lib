@@ -11,6 +11,7 @@ if(isset($_POST['json']) && !empty($_POST['json'])){
     print_r($data);
     echo "</pre>";
     error_log($data,3,"addr_3_001.json");
+    error_log($data,3,"address.json");
 }
 
 ?>
